@@ -1,0 +1,22 @@
+# Chaves e segredos (NUNCA subir)
+.env
+*.key
+chave*.txt
+
+# Dados coletados (contêm comentários)
+*.db
+*.sqlite
+dados_exportados/
+dados_exportados_teste/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
