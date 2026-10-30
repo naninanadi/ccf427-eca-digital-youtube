@@ -18,8 +18,6 @@ O ECA Digital entrou em vigor em 17/03/2026 e impõe deveres às plataformas dig
 
 > Que sinais observáveis em metadados e comentários de vídeos infantis no YouTube brasileiro sugerem riscos relacionados ao ECA Digital?
 
-[preencher/refinar]
-
 ## Como os dados foram coletados
 
 Não existe API pública do YouTube Kids. Usamos a **YouTube Data API v3** e identificamos conteúdo infantil pelo campo `status.madeForKids` (declarado pelo criador ou definido pelo YouTube).
@@ -55,6 +53,7 @@ Dos vídeos, 1.030 estão marcados como feitos para crianças (`made_for_kids=1`
 
 ```
 .
+├── dados_exportados
 ├── testes_iniciais
 ├── coletor_youtube_kids.py   # script de coleta
 ├── busca.txt                 # palavras-chave (uma por linha)
