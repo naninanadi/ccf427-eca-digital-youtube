@@ -4,7 +4,7 @@ Coletor em Python (YouTube Data API v3) e base de dados de vídeos infantis em p
 
 Projeto da disciplina **CCF427 – Técnicas para Análise de Mídias Sociais**. Este repositório cobre a **Parte 1: Coleta de Dados**.
 
-**Autores:** [Ana Clara Oliveira Soares, Gabriel Vitor Teixeira Santos, Maria Eduarda Duarte Lacerda]
+**Autores:** Ana Clara Oliveira Soares, Gabriel Vitor Teixeira Santos, Maria Eduarda Duarte Lacerda
 
 ---
 
