@@ -20,7 +20,7 @@ O ECA Digital entrou em vigor em 17/03/2026 e impõe deveres às plataformas dig
 
 ## Como os dados foram coletados
 
-Não existe API pública do YouTube Kids. Usamos a **YouTube Data API v3** e identificamos conteúdo infantil pelo campo `status.madeForKids` (declarado pelo criador ou definido pelo YouTube).
+Não existe API pública do YouTube Kids. Usamos a **YouTube Data API v3** e identificamos conteúdo infantil pelo campo `status.madeForKids` (declarado pelo criador ou definido pelo YouTube) além de uma busca direcionada usando palavras chave relacionadas ao público infantil.
 
 | Etapa | Chamada da API | O que coleta | Custo de cota |
 |---|---|---|---|
